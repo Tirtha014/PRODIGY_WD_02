@@ -1,0 +1,54 @@
+body {
+    background-color: #343a40; /* Dark background for the page */
+}
+
+.stopwatch {
+    background-color: #f8f9fa; /* Light background for the stopwatch container */
+}
+
+#display {
+    font-size: 3rem; /* Larger font size for the time display */
+    color: #000; /* Black color for better readability */
+}
+
+.btn {
+    width: 80px; /* Uniform button width */
+    font-size: 1rem; /* Button text size */
+    color: #fff; /* White text color for buttons */
+}
+
+#startStopBtn {
+    background-color: #28a745;
+    border: none;
+}
+
+#startStopBtn:hover {
+    background-color: #218838;
+}
+
+#resetBtn {
+    background-color: #dc3545;
+    border: none;
+}
+
+#resetBtn:hover {
+    background-color: #c82333;
+}
+
+#lapBtn {
+    background-color: #007bff;
+    border: none;
+}
+
+#lapBtn:hover {
+    background-color: #0069d9;
+}
+
+.laps li {
+    background: #e9ecef;
+    border: 1px solid #ced4da;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000; /* Black color for lap times */
+}
